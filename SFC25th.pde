@@ -1,9 +1,9 @@
 import processing.pdf.*;
 
-float screenWidth = 640;
-boolean drawColor = true;
-boolean drawGrid = false;
-boolean drawFrame = false;
+float screenWidth = 640;   // set logo width (pixel)
+boolean drawColor = true;  // color or grayscale
+boolean drawGrid = false;  // draw 11 x 8 grid
+boolean drawFrame = false; // draw outline frame
 
 void setup() {
   int gridSize = int(screenWidth / 11.0);
